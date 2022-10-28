@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagens/fundo-site.jpg);
+    background-image: url(../imagens/ddinppj-cadec65d-36c6-4705-82fb-612a9f6a8e36.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,6 +98,9 @@ body{
 
 .informacoes-abas .descricao{
     font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
 }
 
 .informacoes-abas .descricao span{
@@ -108,6 +111,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    align-items: center;
     max-height: 180px;
     overflow-y: auto;
 }
